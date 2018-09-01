@@ -1,5 +1,5 @@
 # lcd_screen
-This little program interacts with a DPI screen on raspberry pi when using HDMI. Suitable for Raspberry pi with retropie software. 
+This little program interacts with a DPI screen on raspberry pi when using HDMI. Suitable and tested for Raspberry pi with retropie software. 
 
 # Installation
 1. Copy it in /home/pi/lcd_screen direcrtory
