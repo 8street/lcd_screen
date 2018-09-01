@@ -1,7 +1,7 @@
 
 // Access from ARM Running Linux
  
-#define BCM2708_PERI_BASE        0x3F000000
+#define BCM2708_PERI_BASE        0x3F000000 //For Raspberry Pi 1 and zero, change BCM2708_PERI_BASE to 0x20000000 for the code to work
 #define GPIO_BASE                (BCM2708_PERI_BASE + 0x200000) /* GPIO controller */
  
  
