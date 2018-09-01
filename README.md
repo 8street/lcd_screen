@@ -8,4 +8,5 @@ This little program interacts with a DPI screen on raspberry pi when using HDMI.
 4. RUN: sudo ./lcd_screen/lcd path/file.bmp usec_per_frame 
 
 when "path/file.bmp" is bmp image, "usec_per_frame" is value in microsecons between frame.
+
 File digits.bmp needs for normal works.
