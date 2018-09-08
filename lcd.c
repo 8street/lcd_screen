@@ -221,7 +221,7 @@ void CpuMemUpdate(void)
 	struct sysinfo si;
 	sysinfo(&si);
 
-	int mem_x = SCREEN_WIDTH - SCREEN_WIDTH * (si.freeram >> 10) / (si.totalram >> 10);
+	int mem_x = SCREEN_WIDTH - SCREEN_WIDTH * ((si.totalram >> 10) - (si.freeram >> 10)) / (si.totalram >> 10);
 	DrawRectangle(mem_x, 0, SCREEN_WIDTH, 3, 200, 40, 100);
 	
 	//printf("CPU Load: %lu\n", si.loads[0]);
